@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>A Project on the Akan Naming Based on Ghanian Culture</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="jumbotron">
+        <div class="heading">
+            <img src="./images/Akan logo.png" alt="Akan Culture">
+    <h1 class="text-primary text-center mt-5 pt-4">NAMING CULTURE AMONG THE AKAN PEOPLE</h1>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <p class="description">
+                    <span class="A">A</span>kan people of Ghana frequently name their children after the day of the week in which they were born and the order in which they were born. The "day names" have further meaning in regards to the soul and character of the person. Most Ghanians have at leastone name from this system, even if they also have an English or Christian name.<br>
+                    To be able to know what your Ghanian name would have been, kindly fill this form.
+                </p>               
+    <!-- Data Form-->
+    <form onsubmit="getName(event)">
+        <label for="date">Choose date of birth</label>
+        <input id="date" type="date"
+        placeholder="Enter your name">
+        <input type="submit" value="Submit"> <br>
+        <label for="gender">Choose your gender</label>
+        <input id="Enter your gender">
+    </form>
+
+            </div>
+        </div>
+    </div>   
+    <div>
+        <p class="text-success">Output:  <span class="text-warning" id="output"></span></p>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
