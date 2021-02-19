@@ -1,0 +1,10 @@
+ .subhead{
+     initial-letter: 2;
+     color: blue;
+ }
+ head{
+     background-color: gold;
+ }
+ body {
+     background-color: lightseagreen;
+ }
