@@ -12,7 +12,9 @@ function getName(event) {
     console.log(gender, date, myBirthday)
 
 
-    if (gender === 'female' && day === "Sun") {
+    if (gender === null && day === "") {
+        alert (`Please input a date and select your gender`)
+    }else if (gender === 'female' && day === "Sun") {
         name = fNames[0]
         alert(`Your Akan name is: ${fNames[0]}`)
     } else if (gender === 'female' && day === "Mon") {
