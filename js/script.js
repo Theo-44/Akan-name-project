@@ -21,3 +21,33 @@ function getName(event){
     outputTag.innerHTML = message
 }
 
+﻿
+if (gender =='m'){
+    alert(`You entered: ${dString}`)
+    alert(`Your Akan name is: ${mNames[day]}`
+
+} else{
+     alert(`You entered: ${dString}`)
+     alert(`Your Akan name is: ${fNames[day]}`
+}
+VM1108:3 Uncaught SyntaxError: missing ) after argument list
+if (gender =='m'){
+    alert(`You entered: ${dString}`)
+    alert(`Your Akan name is: ${mNames[day]}`)
+
+} else{
+     alert(`You entered: ${dString}`)
+     alert(`Your Akan name is: ${fNames[day]}`)
+}
+undefined
+let gender = 'f'
+undefined
+if (gender =='m'){
+    alert(`You entered: ${dString}`)
+    alert(`Your Akan name is: ${mNames[day]}`)
+
+} else{
+     alert(`You entered: ${dString}`)
+     alert(`Your Akan name is: ${fNames[day]}`)
+}
+undefined
